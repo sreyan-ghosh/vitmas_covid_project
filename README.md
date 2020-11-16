@@ -6,4 +6,4 @@ Contains the SARIMAX Time Series Forecasting model that predicts the number of C
 
 <b><i>app.py</i></b> conatins the Flask file that will be published to Heroku or AWS after the frontend work is finished.
 
-[1]: "https://api.covid19india.org/csv/latest/state_wise_daily.csv"
+[1]: https://api.covid19india.org/csv/latest/state_wise_daily.csv
