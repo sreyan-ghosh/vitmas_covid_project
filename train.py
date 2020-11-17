@@ -1,4 +1,4 @@
-from flask import Flask, request
+from flask import Flask
 import pandas as pd
 import joblib
 import json

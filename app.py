@@ -1,4 +1,4 @@
-from flask import Flask, request
+from flask import Flask, request, render_template
 from flask_cors import CORS
 import pandas as pd
 import joblib
@@ -16,7 +16,7 @@ CORS(app)
 
 @app.route('/')
 def home():
-    return "<h1>Welcome to the ever-running TS forecaster of COVID 19 in India</h1>"
+    return render_template('index.html')
 
 
 @app.route('/predict')
